@@ -21,7 +21,7 @@ def add_horizontal_gaussian_noise(image, noise_factor=0.1):
 aug_list = [
     transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
     transforms.RandomHorizontalFlip(p=0.5),
-    transforms.Lambda(lambda img: add_horizontal_gaussian_noise(img, noise_factor=0.1))
+    transforms.Lambda(lambda img: add_horizontal_gaussian_noise(img, noise_factor=0.01))
 ]
 
 def mixup(image1, image2, alpha=0.2):
