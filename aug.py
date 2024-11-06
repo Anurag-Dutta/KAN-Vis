@@ -5,8 +5,8 @@ import random
 import torchvision.transforms as transforms
 from torchvision.transforms import functional as TF
 
-input_dir = 'Youtube_HTML5_Workstation'
-output_dir = 'aug/Youtube_HTML5_Workstation'
+input_dir = '...'
+output_dir = 'aug/...'
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
