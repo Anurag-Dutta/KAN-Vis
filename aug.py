@@ -11,7 +11,7 @@ output_dir = 'aug/Youtube_HTML5_Workstation'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
-def add_horizontal_gaussian_noise(image, noise_factor=0.1):
+def add_horizontal_gaussian_noise(image, noise_factor=0.01):
     """Add horizontal Gaussian noise to the image."""
     image_np = np.array(image)
     noise = np.random.randn(*image_np.shape) * noise_factor
