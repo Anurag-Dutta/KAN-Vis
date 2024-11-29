@@ -14,14 +14,3 @@ The visual representation-based techniques for network traffic classification ar
 Following are the architectural view of the 4 deep learning models proposed under `KAN-Vis`
 
 ![KAN-Vis Architecture](figs/f2.png)
-
-
-
-
-
-
-_A Collaborative work by researchers from the Indian Institute of Technology, Kharagpur, & Thapar Institute of Engineering and Technology_
-<div align="center">
-  <img src="figs/IIT.jpg" alt="Image 1" width="20%" />
-  <img src="figs/TI.jpg" alt="Image 2" width="20%" />
-</div>
