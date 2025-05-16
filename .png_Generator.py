@@ -32,7 +32,7 @@ for channel in range(num_channels):
 
     plt.axis('off')
 
-    output_file = os.path.join(output_folder, f'VOIP_Skype_Voice_Gateway_{channel}.png')
+    output_file = os.path.join(output_folder, f'..._{channel}.png')
     plt.savefig(output_file, bbox_inches='tight', pad_inches=0)
     
     plt.close()
