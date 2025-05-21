@@ -10,3 +10,39 @@ We use a visual representation-based technique similar to *FlowPic*, where norma
 Following are the architectural view of the 4 deep learning models proposed under `KAN-Vis`
 
 ![KAN-Vis Architecture](figs/f2.png)
+
+
+
+<table style="width: 100%;">
+  <tr>
+    <td align="center" style="width: 33%;">
+      <img src="figs/cm_reg_kanvis.png" alt="Regular flow; KAN-Vis" style="width: 90%;"/><br>
+      <code>Regular KAN-Vis</code>
+    </td>
+    <td align="center" style="width: 33%;">
+      <img src="figs/cm_tor_kanvis.png" alt="TOR flow; KAN-Vis" style="width: 90%;"/><br>
+      <code>Tor KAN-Vis</code>
+    </td>
+    <td align="center" style="width: 33%;">
+      <img src="figs/cm_vpn_kanvis.png" alt="VPN flow; KAN-Vis" style="width: 90%;"/><br>
+      <code>VPN KAN-Vis</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="width: 33%;">
+      <img src="figs/cm_reg_flowpic.png" alt="Regular flow; FlowPic" style="width: 90%;"/><br>
+      <em>Regular FlowPic</em>
+    </td>
+    <td align="center" style="width: 33%;">
+      <img src="figs/cm_tor_flowpic.png" alt="TOR flow; FlowPic" style="width: 90%;"/><br>
+      <em>Tor FlowPic</em>
+    </td>
+    <td align="center" style="width: 33%;">
+      <img src="figs/cm_vpn_flowpic.png" alt="VPN flow; FlowPic" style="width: 90%;"/><br>
+      <em>VPN FlowPic</em>
+    </td>
+  </tr>
+</table>
+
+
+
