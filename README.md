@@ -1,11 +1,9 @@
 # `KAN-Vis`: Efficient and Lightweight Visual Technique for Network Traffic Classification using Kolmogorov-Arnold Network
 
+Network traffic classification is a problem of fundamental importance in network security and has been widely researched. However, the complexity of this task has increased substantially in recent years due to end-to-end encryption, VPNs, and anonymization schemes like Tor. Existing methods typically extract statistical features from network traffic flows and use machine learning for classification. In this research, we propose a set of four visual network traffic classifiers, collectively called **`KAN-Vis`**, based on the novel Kolmogorov-Arnold Network (KAN) architecture. The input to these models is a pictorial representation of the time series of packet-size histograms. Our models are tested on standard benchmark datasets, including `ISCXTor-nonTor` and `ISCXVPN-nonVPN`, and achieve state-of-the-art results by outperforming previous techniques by **2.03%**, **0.84%**, and **1.98%** for regular, Tor-encrypted, and VPN-protected traffic flows, respectively.
 
-Network traffic classification is increasingly challenging due to encryption, VPNs, and anonymization like Tor. We propose a visual classifier, `KAN-Vis` using packet-size histogram time-series with the Kolmogorov-Arnold Network (KAN). Our four `KAN-Vis` deep learning models optimize accuracy and computational cost, achieving state-of-the-art results on the `ISCXTor-nonTor` dataset: 93.61% accuracy for Tor traffic (**previous best: 67.8%**) and 96.54% for non-Tor traffic (**previous best: ~85%**). Unlike previous approaches, we also perform intra-class classification, supporting both encrypted and unencrypted traffic while maintaining privacy.
+We use a visual representation-based technique similar to *FlowPic*, where normalized histograms of packet arrival times and packet sizes are transformed into images that serve as inputs to deep learning models. `KAN-Vis` achieves high accuracy while being efficient and lightweight.
 
-
-
-The visual representation-based techniques for network traffic classification are relatively less-explored but effective methods like _FlowPic_ where a visual representation of network traffic characteristics – “histogram” plots of normalized network packet arrival times and packet sizes (bytes) – was constructed, and then input to a convolutional neural network (CNN) for classification. 
 
 ![Network Traffic Visualization](figs/f1.png)
 
